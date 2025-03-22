@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;  /* Тёмный фон для всего сайта */
+    color: #e0e0e0;  /* Светлый текст на тёмном фоне */
+}
+
+header {
+    background-color: #1f1f1f;  /* Тёмный оттенок для шапки */
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #bbb;  /* Более светлый цвет для ссылок */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: white;  /* Смена цвета при наведении */
+}
+
+.hero {
+    background-image: url('images/coffee-hero.jpg');  /* Картинка на фоне */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    background-color: #bb4d00;  /* Яркий цвет для кнопки */
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #8c2a00;  /* Сменится цвет при наведении */
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;  /* Белый цвет заголовков */
+}
+
+.menu-item {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background-color: #1f1f1f;  /* Тёмный фон для блока */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);  /* Легкая тень */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1f1f1f;  /* Тёмный фон для футера */
+    color: #bbb;  /* Светлый текст в футере */
+    text-align: center;
+    padding: 20px;
+}
